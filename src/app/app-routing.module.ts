@@ -14,7 +14,7 @@ const app_routes: Routes = [
     { path: 'item/:id', component: ItemComponent },
     { path: 'search/:termino', component: SearchComponent },
     { path: 'contacto', component: ContactoComponent },
-    { path: '**', pathMatch: 'full', redirectTo: 'home' }
+    { path: '**', pathMatch: 'full', redirectTo: 'home'  }
 ];
 
 
