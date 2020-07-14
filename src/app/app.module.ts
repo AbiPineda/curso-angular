@@ -16,6 +16,14 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { SearchComponent } from './pages/search/search.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { VuelosComponent } from './pages/vuelos/vuelos.component';
+import { ToursComponent } from './pages/tours/tours.component';
+import { PaquetesComponent } from './pages/paquetes/paquetes.component';
+import { EncomiendaComponent } from './pages/encomienda/encomienda.component';
+import { AsesoriaComponent } from './pages/asesoria/asesoria.component';
+import { VehiculosComponent } from './pages/vehiculos/vehiculos.component';
+import { RegistroComponent } from './pages/registro/registro.component';
+import { AplicacionMovilComponent } from './pages/aplicacion-movil/aplicacion-movil.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +34,15 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     AboutComponent,
     ItemComponent,
     SearchComponent,
-    ContactoComponent
+    ContactoComponent,
+    VuelosComponent,
+    ToursComponent,
+    PaquetesComponent,
+    EncomiendaComponent,
+    AsesoriaComponent,
+    VehiculosComponent,
+    RegistroComponent,
+    AplicacionMovilComponent
   ],
   imports: [
     BrowserModule,

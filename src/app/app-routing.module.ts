@@ -6,6 +6,12 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { SearchComponent } from './pages/search/search.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { AsesoriaComponent } from './pages/asesoria/asesoria.component';
+import { EncomiendaComponent } from './pages/encomienda/encomienda.component';
+import { PaquetesComponent } from './pages/paquetes/paquetes.component';
+import { ToursComponent } from './pages/tours/tours.component';
+import { VehiculosComponent } from './pages/vehiculos/vehiculos.component';
+import { VuelosComponent } from './pages/vuelos/vuelos.component';
 
 
 const app_routes: Routes = [
@@ -14,7 +20,13 @@ const app_routes: Routes = [
     { path: 'item/:id', component: ItemComponent },
     { path: 'search/:termino', component: SearchComponent },
     { path: 'contacto', component: ContactoComponent },
-    { path: '**', pathMatch: 'full', redirectTo: 'home'  }
+    { path: 'asesoria', component: AsesoriaComponent },
+    { path: 'encomienda', component: EncomiendaComponent },
+    { path: 'paquetes', component: PaquetesComponent },
+    { path: 'tours', component: ToursComponent },
+    { path: 'vehiculos', component: VehiculosComponent },
+    { path: 'vuelos', component: VuelosComponent },
+    { path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
 
 
