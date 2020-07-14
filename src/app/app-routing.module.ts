@@ -12,6 +12,8 @@ import { PaquetesComponent } from './pages/paquetes/paquetes.component';
 import { ToursComponent } from './pages/tours/tours.component';
 import { VehiculosComponent } from './pages/vehiculos/vehiculos.component';
 import { VuelosComponent } from './pages/vuelos/vuelos.component';
+import { RegistroComponent } from './pages/registro/registro.component';
+import { AplicacionMovilComponent } from './pages/aplicacion-movil/aplicacion-movil.component';
 
 
 const app_routes: Routes = [
@@ -26,6 +28,8 @@ const app_routes: Routes = [
     { path: 'tours', component: ToursComponent },
     { path: 'vehiculos', component: VehiculosComponent },
     { path: 'vuelos', component: VuelosComponent },
+    { path: 'registro', component: RegistroComponent },
+    { path: 'aplicacionMovil', component: AplicacionMovilComponent},
     { path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
 
